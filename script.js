@@ -42,7 +42,7 @@ function createTodoCard(text) {
 
     const deleteBtn = document.createElement("button");
     deleteBtn.classList.add("delete-btn");
-    deleteBtn.textContent = "✖";
+    deleteBtn.textContent = "🗑";
     deleteBtn.addEventListener("click", () => {
         if (todoCard.classList.contains("completed")) {
             completedTodos--;

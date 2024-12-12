@@ -9,14 +9,15 @@ body {
     max-width: 400px;
     margin: 50px auto;
     text-align: center;
-    background: #fff;
+    background: linear-gradient(to bottom, rgb(118, 145, 10), rgb(2, 55, 48));
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 h1 {
-    color: #333;
+    color: whitesmoke;
 }
 
 .input-section {
@@ -35,7 +36,7 @@ h1 {
 }
 
 #add-btn {
-    background-color: #007bff;
+    background-color:  rgb(101, 162, 20);
     color: white;
     border: none;
     border-radius: 5px;
@@ -44,7 +45,7 @@ h1 {
 }
 
 #add-btn:hover {
-    background-color: #0056b3;
+    background-color: rgb(15, 62, 15);
 }
 
 #todo-container {
@@ -55,9 +56,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f9f9f9;
+    color: whitesmoke;
+    background:rgb(54, 51, 51);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 12px;
     margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -84,21 +86,27 @@ h1 {
 }
 
 .action-buttons .check-btn {
+    height: 50px;
+    width: 40px;
     color: white;
     border: 2px solid;
-    background-color: green;
+    border-radius: 10px;
+    background-color: rgb(101, 162, 20);
 }
 
 .action-buttons .delete-btn {
+    height: 50px;
+    width: 40px;
     color: white;
     border: 2px solid;
+    border-radius: 10px;
     background-color: red;
 }
 
 .footer {
     margin-top: 20px;
     font-size: 14px;
-    color: #333;
+    color: whitesmoke;
     display: flex;
     justify-content: space-between;
 }
